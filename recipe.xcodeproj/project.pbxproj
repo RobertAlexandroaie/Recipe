@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84D2EA0F17115A7700E6173D /* ACRecipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D2EA0317115A7700E6173D /* ACRecipe.m */; };
+		84D2EA1017115A7700E6173D /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D2EA0717115A7700E6173D /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		84D2EA1117115A7700E6173D /* UIAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D2EA0B17115A7700E6173D /* UIAboutViewController.m */; };
+		84D2EA1217115A7700E6173D /* UIRecipeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D2EA0E17115A7700E6173D /* UIRecipeTableViewController.m */; };
+		84D2EA1F17117CD400E6173D /* gulas.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D2EA1817117CD400E6173D /* gulas.png */; };
+		84D2EA2017117CD400E6173D /* lasania.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D2EA1917117CD400E6173D /* lasania.png */; };
+		84D2EA2117117CD400E6173D /* pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D2EA1A17117CD400E6173D /* pizza.png */; };
+		84D2EA2217117CD400E6173D /* recipe1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D2EA1B17117CD400E6173D /* recipe1.png */; };
+		84D2EA2317117CD400E6173D /* recipe2.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D2EA1C17117CD400E6173D /* recipe2.png */; };
+		84D2EA2417117CD400E6173D /* sarmale.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D2EA1D17117CD400E6173D /* sarmale.png */; };
+		84D2EA2517117CD400E6173D /* Recipe.json in Resources */ = {isa = PBXBuildFile; fileRef = 84D2EA1E17117CD400E6173D /* Recipe.json */; };
+		84D2EA28171181B500E6173D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84D2EA26171181B400E6173D /* Localizable.strings */; };
+		E12F93CE17196BEA0019FBBE /* ACRecipeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E12F93CD17196BEA0019FBBE /* ACRecipeManager.m */; };
+		E143618A1719466E000EF59E /* 09-chat-2.png in Resources */ = {isa = PBXBuildFile; fileRef = E14361891719466E000EF59E /* 09-chat-2.png */; };
+		E143618C171948A2000EF59E /* 53-house.png in Resources */ = {isa = PBXBuildFile; fileRef = E143618B171948A2000EF59E /* 53-house.png */; };
+		E143619017194B5E000EF59E /* UIDetailedRecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E143618F17194B5E000EF59E /* UIDetailedRecipeViewController.m */; };
+		FA97F778171007D8002BD82A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA97F777171007D8002BD82A /* UIKit.framework */; };
+		FA97F77A171007D8002BD82A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA97F779171007D8002BD82A /* Foundation.framework */; };
+		FA97F77C171007D8002BD82A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA97F77B171007D8002BD82A /* CoreGraphics.framework */; };
+		FA97F782171007D8002BD82A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA97F780171007D8002BD82A /* InfoPlist.strings */; };
+		FA97F784171007D8002BD82A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA97F783171007D8002BD82A /* main.m */; };
+		FA97F788171007D8002BD82A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA97F787171007D8002BD82A /* AppDelegate.m */; };
+		FA97F78A171007D8002BD82A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FA97F789171007D8002BD82A /* Default.png */; };
+		FA97F78C171007D8002BD82A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA97F78B171007D8002BD82A /* Default@2x.png */; };
+		FA97F78E171007D8002BD82A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA97F78D171007D8002BD82A /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84A0F67E1711829200922944 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = recipe/ro.lproj/Localizable.strings; sourceTree = "<group>"; };
+		84D2EA0217115A7700E6173D /* ACRecipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRecipe.h; sourceTree = "<group>"; };
+		84D2EA0317115A7700E6173D /* ACRecipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACRecipe.m; sourceTree = "<group>"; };
+		84D2EA0617115A7700E6173D /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		84D2EA0717115A7700E6173D /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		84D2EA0A17115A7700E6173D /* UIAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAboutViewController.h; sourceTree = "<group>"; };
+		84D2EA0B17115A7700E6173D /* UIAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAboutViewController.m; sourceTree = "<group>"; };
+		84D2EA0D17115A7700E6173D /* UIRecipeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIRecipeTableViewController.h; sourceTree = "<group>"; };
+		84D2EA0E17115A7700E6173D /* UIRecipeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIRecipeTableViewController.m; sourceTree = "<group>"; };
+		84D2EA1817117CD400E6173D /* gulas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gulas.png; sourceTree = "<group>"; };
+		84D2EA1917117CD400E6173D /* lasania.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lasania.png; sourceTree = "<group>"; };
+		84D2EA1A17117CD400E6173D /* pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza.png; sourceTree = "<group>"; };
+		84D2EA1B17117CD400E6173D /* recipe1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe1.png; sourceTree = "<group>"; };
+		84D2EA1C17117CD400E6173D /* recipe2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe2.png; sourceTree = "<group>"; };
+		84D2EA1D17117CD400E6173D /* sarmale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sarmale.png; sourceTree = "<group>"; };
+		84D2EA1E17117CD400E6173D /* Recipe.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Recipe.json; sourceTree = "<group>"; };
+		84D2EA27171181B500E6173D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = recipe/en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E12F93CC17196BEA0019FBBE /* ACRecipeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRecipeManager.h; sourceTree = "<group>"; };
+		E12F93CD17196BEA0019FBBE /* ACRecipeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACRecipeManager.m; sourceTree = "<group>"; };
+		E14361891719466E000EF59E /* 09-chat-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "09-chat-2.png"; path = "../09-chat-2.png"; sourceTree = "<group>"; };
+		E143618B171948A2000EF59E /* 53-house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "53-house.png"; sourceTree = "<group>"; };
+		E143618E17194B5E000EF59E /* UIDetailedRecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDetailedRecipeViewController.h; sourceTree = "<group>"; };
+		E143618F17194B5E000EF59E /* UIDetailedRecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDetailedRecipeViewController.m; sourceTree = "<group>"; };
+		FA97F774171007D8002BD82A /* recipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = recipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA97F777171007D8002BD82A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA97F779171007D8002BD82A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA97F77B171007D8002BD82A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA97F77F171007D8002BD82A /* recipe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "recipe-Info.plist"; sourceTree = "<group>"; };
+		FA97F781171007D8002BD82A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA97F783171007D8002BD82A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA97F785171007D8002BD82A /* recipe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "recipe-Prefix.pch"; sourceTree = "<group>"; };
+		FA97F786171007D8002BD82A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA97F787171007D8002BD82A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA97F789171007D8002BD82A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FA97F78B171007D8002BD82A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FA97F78D171007D8002BD82A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA97F771171007D8002BD82A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA97F778171007D8002BD82A /* UIKit.framework in Frameworks */,
+				FA97F77A171007D8002BD82A /* Foundation.framework in Frameworks */,
+				FA97F77C171007D8002BD82A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84D2E9FF17115A7700E6173D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				84D2EA0017115A7700E6173D /* ApplicationCore */,
+				84D2EA0417115A7700E6173D /* ExternalFramework */,
+				84D2EA0817115A7700E6173D /* UIControllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		84D2EA0017115A7700E6173D /* ApplicationCore */ = {
+			isa = PBXGroup;
+			children = (
+				E12F93CB17196BCF0019FBBE /* ACRecipeManager */,
+				84D2EA0117115A7700E6173D /* ACRecipe */,
+			);
+			path = ApplicationCore;
+			sourceTree = "<group>";
+		};
+		84D2EA0117115A7700E6173D /* ACRecipe */ = {
+			isa = PBXGroup;
+			children = (
+				84D2EA0217115A7700E6173D /* ACRecipe.h */,
+				84D2EA0317115A7700E6173D /* ACRecipe.m */,
+			);
+			path = ACRecipe;
+			sourceTree = "<group>";
+		};
+		84D2EA0417115A7700E6173D /* ExternalFramework */ = {
+			isa = PBXGroup;
+			children = (
+				84D2EA0517115A7700E6173D /* JSONKit */,
+			);
+			path = ExternalFramework;
+			sourceTree = "<group>";
+		};
+		84D2EA0517115A7700E6173D /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				84D2EA0617115A7700E6173D /* JSONKit.h */,
+				84D2EA0717115A7700E6173D /* JSONKit.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		84D2EA0817115A7700E6173D /* UIControllers */ = {
+			isa = PBXGroup;
+			children = (
+				84D2EA0917115A7700E6173D /* UIAboutViewController */,
+				84D2EA0C17115A7700E6173D /* UIRecipeTableViewController */,
+			);
+			path = UIControllers;
+			sourceTree = "<group>";
+		};
+		84D2EA0917115A7700E6173D /* UIAboutViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84D2EA0A17115A7700E6173D /* UIAboutViewController.h */,
+				84D2EA0B17115A7700E6173D /* UIAboutViewController.m */,
+			);
+			name = UIAboutViewController;
+			path = UIMainViewController;
+			sourceTree = "<group>";
+		};
+		84D2EA0C17115A7700E6173D /* UIRecipeTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E143618D17194B34000EF59E /* UIDetailedRecipeViewController */,
+				84D2EA0D17115A7700E6173D /* UIRecipeTableViewController.h */,
+				84D2EA0E17115A7700E6173D /* UIRecipeTableViewController.m */,
+			);
+			path = UIRecipeTableViewController;
+			sourceTree = "<group>";
+		};
+		84D2EA1617117CD400E6173D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84D2EA1717117CD400E6173D /* Images */,
+				84D2EA1E17117CD400E6173D /* Recipe.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		84D2EA1717117CD400E6173D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E143618B171948A2000EF59E /* 53-house.png */,
+				E14361891719466E000EF59E /* 09-chat-2.png */,
+				84D2EA1817117CD400E6173D /* gulas.png */,
+				84D2EA1917117CD400E6173D /* lasania.png */,
+				84D2EA1A17117CD400E6173D /* pizza.png */,
+				84D2EA1B17117CD400E6173D /* recipe1.png */,
+				84D2EA1C17117CD400E6173D /* recipe2.png */,
+				84D2EA1D17117CD400E6173D /* sarmale.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		E12F93CB17196BCF0019FBBE /* ACRecipeManager */ = {
+			isa = PBXGroup;
+			children = (
+				E12F93CC17196BEA0019FBBE /* ACRecipeManager.h */,
+				E12F93CD17196BEA0019FBBE /* ACRecipeManager.m */,
+			);
+			path = ACRecipeManager;
+			sourceTree = "<group>";
+		};
+		E143618D17194B34000EF59E /* UIDetailedRecipeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E143618E17194B5E000EF59E /* UIDetailedRecipeViewController.h */,
+				E143618F17194B5E000EF59E /* UIDetailedRecipeViewController.m */,
+			);
+			path = UIDetailedRecipeViewController;
+			sourceTree = "<group>";
+		};
+		FA97F76B171007D8002BD82A = {
+			isa = PBXGroup;
+			children = (
+				FA97F77D171007D8002BD82A /* recipe */,
+				FA97F776171007D8002BD82A /* Frameworks */,
+				FA97F775171007D8002BD82A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA97F775171007D8002BD82A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA97F774171007D8002BD82A /* recipe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA97F776171007D8002BD82A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA97F777171007D8002BD82A /* UIKit.framework */,
+				FA97F779171007D8002BD82A /* Foundation.framework */,
+				FA97F77B171007D8002BD82A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA97F77D171007D8002BD82A /* recipe */ = {
+			isa = PBXGroup;
+			children = (
+				FA97F786171007D8002BD82A /* AppDelegate.h */,
+				FA97F787171007D8002BD82A /* AppDelegate.m */,
+				84D2EA26171181B400E6173D /* Localizable.strings */,
+				84D2E9FF17115A7700E6173D /* Classes */,
+				84D2EA1617117CD400E6173D /* Resources */,
+				FA97F77E171007D8002BD82A /* Supporting Files */,
+			);
+			path = recipe;
+			sourceTree = "<group>";
+		};
+		FA97F77E171007D8002BD82A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA97F77F171007D8002BD82A /* recipe-Info.plist */,
+				FA97F780171007D8002BD82A /* InfoPlist.strings */,
+				FA97F783171007D8002BD82A /* main.m */,
+				FA97F785171007D8002BD82A /* recipe-Prefix.pch */,
+				FA97F789171007D8002BD82A /* Default.png */,
+				FA97F78B171007D8002BD82A /* Default@2x.png */,
+				FA97F78D171007D8002BD82A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA97F773171007D8002BD82A /* recipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA97F791171007D8002BD82A /* Build configuration list for PBXNativeTarget "recipe" */;
+			buildPhases = (
+				FA97F770171007D8002BD82A /* Sources */,
+				FA97F771171007D8002BD82A /* Frameworks */,
+				FA97F772171007D8002BD82A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = recipe;
+			productName = recipe;
+			productReference = FA97F774171007D8002BD82A /* recipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA97F76C171007D8002BD82A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Alex;
+			};
+			buildConfigurationList = FA97F76F171007D8002BD82A /* Build configuration list for PBXProject "recipe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ro,
+			);
+			mainGroup = FA97F76B171007D8002BD82A;
+			productRefGroup = FA97F775171007D8002BD82A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA97F773171007D8002BD82A /* recipe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA97F772171007D8002BD82A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA97F782171007D8002BD82A /* InfoPlist.strings in Resources */,
+				FA97F78A171007D8002BD82A /* Default.png in Resources */,
+				FA97F78C171007D8002BD82A /* Default@2x.png in Resources */,
+				FA97F78E171007D8002BD82A /* Default-568h@2x.png in Resources */,
+				84D2EA1F17117CD400E6173D /* gulas.png in Resources */,
+				84D2EA2017117CD400E6173D /* lasania.png in Resources */,
+				84D2EA2117117CD400E6173D /* pizza.png in Resources */,
+				84D2EA2217117CD400E6173D /* recipe1.png in Resources */,
+				84D2EA2317117CD400E6173D /* recipe2.png in Resources */,
+				84D2EA2417117CD400E6173D /* sarmale.png in Resources */,
+				84D2EA2517117CD400E6173D /* Recipe.json in Resources */,
+				84D2EA28171181B500E6173D /* Localizable.strings in Resources */,
+				E143618A1719466E000EF59E /* 09-chat-2.png in Resources */,
+				E143618C171948A2000EF59E /* 53-house.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA97F770171007D8002BD82A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA97F784171007D8002BD82A /* main.m in Sources */,
+				FA97F788171007D8002BD82A /* AppDelegate.m in Sources */,
+				84D2EA0F17115A7700E6173D /* ACRecipe.m in Sources */,
+				84D2EA1017115A7700E6173D /* JSONKit.m in Sources */,
+				84D2EA1117115A7700E6173D /* UIAboutViewController.m in Sources */,
+				84D2EA1217115A7700E6173D /* UIRecipeTableViewController.m in Sources */,
+				E143619017194B5E000EF59E /* UIDetailedRecipeViewController.m in Sources */,
+				E12F93CE17196BEA0019FBBE /* ACRecipeManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84D2EA26171181B400E6173D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D2EA27171181B500E6173D /* en */,
+				84A0F67E1711829200922944 /* ro */,
+			);
+			name = Localizable.strings;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		FA97F780171007D8002BD82A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA97F781171007D8002BD82A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA97F78F171007D8002BD82A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA97F790171007D8002BD82A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA97F792171007D8002BD82A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "recipe/recipe-Prefix.pch";
+				INFOPLIST_FILE = "recipe/recipe-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA97F793171007D8002BD82A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "recipe/recipe-Prefix.pch";
+				INFOPLIST_FILE = "recipe/recipe-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA97F76F171007D8002BD82A /* Build configuration list for PBXProject "recipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA97F78F171007D8002BD82A /* Debug */,
+				FA97F790171007D8002BD82A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA97F791171007D8002BD82A /* Build configuration list for PBXNativeTarget "recipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA97F792171007D8002BD82A /* Debug */,
+				FA97F793171007D8002BD82A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA97F76C171007D8002BD82A /* Project object */;
+}

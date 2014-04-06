@@ -1,0 +1,15 @@
+/* 
+  sdfvfgb.strings
+  recipe
+
+  Created by LMRFAI on 4/7/13.
+  Copyright (c) 2013 Alex. All rights reserved.
+*/
+"kRecipeTitle" = "Recipe";
+"kOldRecipe" = "Old recipes";
+"kButtonStatusFirst" = "Press me";
+"kButtonStatusPressed" = "I was pressed";
+"kRecipes" = "Recipies";
+"kAbout" = "About";
+"kHomeIcon" = "53-house.png";
+"kRecipeIcon" = "09-chat-2.png";

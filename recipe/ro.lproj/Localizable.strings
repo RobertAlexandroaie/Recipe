@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  recipe
+
+  Created by LMRFAI on 4/7/13.
+  Copyright (c) 2013 Alex. All rights reserved.
+*/
+"kRecipeTitle" = "Rețete";
+"kOldRecipe" = "Rețete vechi";
+"kButtonStatusFirst" = "Apasa-ma";
+"kButtonStatusPressed" = "Am fost apasat";
+"kRecipes" = "Rețete";
+"kAbout" = "Despre";
+"kHomeIcon" = "53-house.png";
+"kRecipeIcon" = "09-chat-2.png";
